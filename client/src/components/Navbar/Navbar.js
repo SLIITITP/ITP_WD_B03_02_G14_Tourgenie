@@ -40,7 +40,7 @@ const Navbar = () => {
       <Link to="/" className={classes.brandContainer}>
         <img
           className={classes.image}
-          src={tourgenie}
+          src={memoriesLogo}
           alt="icon"
           height="100px"
         />
