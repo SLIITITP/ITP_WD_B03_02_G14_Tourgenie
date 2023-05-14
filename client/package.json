@@ -1,4 +1,14 @@
 {
+<<<<<<< HEAD
+  "name": "client",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@chakra-ui/icons": "^2.0.18",
+    "@chakra-ui/react": "^2.5.5",
+    "@emotion/react": "^11.10.6",
+    "@emotion/styled": "^11.10.6",
+=======
   "name": "frontend",
   "version": "0.1.0",
   "private": true,
@@ -6,24 +16,49 @@
     "@emotion/react": "^11.10.6",
     "@emotion/styled": "^11.10.6",
     "@material-ui/core": "^4.12.4",
+>>>>>>> test
     "@mui/icons-material": "^5.11.16",
     "@mui/material": "^5.12.1",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+<<<<<<< HEAD
+    "axios": "^1.3.6",
+    "base64-arraybuffer": "^1.0.2",
+    "bootstrap": "^5.2.3",
+    "chart.js": "^4.3.0",
+    "framer-motion": "^4.1.17",
+    "install": "^0.13.0",
+    "jspdf": "^2.5.1",
+    "jspdf-autotable": "^3.5.28",
+    "nodemailer": "^6.9.2",
+    "npm": "^9.6.5",
+=======
     "axios": "^1.3.5",
     "bootstrap": "^5.2.3",
     "force": "^0.0.3",
     "jspdf-react": "^1.0.11",
+>>>>>>> test
     "react": "^18.2.0",
     "react-bootstrap": "^2.7.4",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.10.0",
+<<<<<<< HEAD
+    "react-scripts": "5.0.1",
+    "react-slick": "^0.29.0",
+    "react-toastify": "^9.1.2",
+    "slick-carousel": "^1.8.1",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+=======
     "react-scripts": "^2.1.3",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
     "start": "react-scripts --openssl-legacy-provider start",
+>>>>>>> test
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
