@@ -1,4 +1,15 @@
 <<<<<<< HEAD
+
+body {
+    background-color: #f7f8fc;
+}
+
+* {
+    /* font-family: 'Noto Sans JP' !important; */
+    font-family: 'Heebo', sans-serif !important;
+}
+=======
+<<<<<<< HEAD
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -24,3 +35,4 @@ code {
     monospace;
 }
 >>>>>>> test
+>>>>>>> a00876d90ad433b8956840caedcf738a8b4bf058

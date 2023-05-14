@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+import express from "express";
+const router = express.Router();
+
+import { signin, signup, deleteUser, updateUser } from "../controllers/user.js";
+
+router.post("/signin", signin);
+router.post("/signup", signup);
+
+router.patch("/:id", updateUser); 
+router.delete("/:id", deleteUser);
+
+export default router;
+=======
 const router = require ("express").Router();
 let user =require ("../module/user");
 
@@ -62,3 +76,4 @@ module.exports =router;
 
 
  
+>>>>>>> a00876d90ad433b8956840caedcf738a8b4bf058
