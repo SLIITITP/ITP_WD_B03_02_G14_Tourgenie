@@ -1,4 +1,34 @@
+<<<<<<< HEAD
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Roboto:wght@400;700&display=swap');
+=======
+<<<<<<< HEAD
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+=======
+<<<<<<< HEAD
+
+body {
+    background-color: #f7f8fc;
+}
+
+* {
+    /* font-family: 'Noto Sans JP' !important; */
+    font-family: 'Heebo', sans-serif !important;
+}
+=======
+<<<<<<< HEAD
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+=======
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+>>>>>>> f46d21320db39d5c1b711e338a150f88d40fe2e6
 
 body {
   margin: 0;
@@ -7,13 +37,17 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+<<<<<<< HEAD
   font-family: 'Roboto', sans-serif;
+=======
+>>>>>>> f46d21320db39d5c1b711e338a150f88d40fe2e6
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+<<<<<<< HEAD
 
 p{
   font-size: 16px !important;
@@ -89,3 +123,8 @@ h2{
   width: 150px;
 
 }
+=======
+>>>>>>> test
+>>>>>>> a00876d90ad433b8956840caedcf738a8b4bf058
+>>>>>>> d2e79b22933d788dc568ad7586b8a2251a0a9f61
+>>>>>>> f46d21320db39d5c1b711e338a150f88d40fe2e6
