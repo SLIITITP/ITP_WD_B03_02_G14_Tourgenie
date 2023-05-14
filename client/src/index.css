@@ -1,4 +1,9 @@
 <<<<<<< HEAD
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+=======
+<<<<<<< HEAD
 
 body {
     background-color: #f7f8fc;
@@ -36,3 +41,4 @@ code {
 }
 >>>>>>> test
 >>>>>>> a00876d90ad433b8956840caedcf738a8b4bf058
+>>>>>>> d2e79b22933d788dc568ad7586b8a2251a0a9f61

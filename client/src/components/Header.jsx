@@ -1,4 +1,27 @@
 import React, { useState } from 'react';
+<<<<<<< HEAD
+import { AppBar, Tab, Tabs, Toolbar, Typography } from '@mui/material';
+import PersonPinCircleOutlinedIcon from '@mui/icons-material/PersonPinCircleOutlined';
+import { NavLink } from "react-router-dom";
+
+const Header = () => {
+    const [value, setValue] = useState();
+  return (
+    <div>
+        <AppBar sx={{ backgroundColor: "#3A1078"}} position='fixed'>
+            <Toolbar>
+            <NavLink style={{ color: "white"}}>
+            <Typography>
+                T<PersonPinCircleOutlinedIcon/>urGenie
+            </Typography>
+            </NavLink>
+            <Tabs>
+            <Tab />
+
+            </Tabs>
+            </Toolbar>
+        </AppBar>
+=======
 import { AppBar, Tab, Tabs, Toolbar, Typography, IconButton, InputBase } from '@mui/material';
 import PersonPinCircleOutlinedIcon from '@mui/icons-material/PersonPinCircleOutlined';
 import NotificationsIcon from '@mui/icons-material/Notifications';
@@ -60,8 +83,13 @@ const Header = () => {
           </Toolbar>
         }
       </AppBar>
+>>>>>>> d2e79b22933d788dc568ad7586b8a2251a0a9f61
     </div>
   );
 };
 
+<<<<<<< HEAD
 export default Header;
+=======
+export default Header;
+>>>>>>> d2e79b22933d788dc568ad7586b8a2251a0a9f61

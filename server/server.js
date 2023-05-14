@@ -1,4 +1,11 @@
 <<<<<<< HEAD
+//ashen4 //12luMK5q4
+const express = require('express');
+const mongoose = require('mongoose'); //invoke mongoose
+const prouter = require("./routes/package-route");
+const brouter = require("./routes/pckgBooking-route");
+=======
+<<<<<<< HEAD
 
 const express = require('express');
 const mongoose = require('mongoose'); //invoke mongoose
@@ -7,17 +14,23 @@ const router2 = require("./routes/booking-route");
 const router3 = require("./routes/hotel_booking-route");
 const router4 = require("./routes/package-route");
 
+>>>>>>> d2e79b22933d788dc568ad7586b8a2251a0a9f61
 const cors = require('cors');
 const app = express(); //invoke express
 
 //app middlewares
 app.use(express.json());
 app.use(cors());
+<<<<<<< HEAD
+app.use("/packages",prouter);//localhost:5000/packages
+app.use("/pbookings",brouter);//localhost:5000/pbookings
+=======
 app.use("/notices",router);//localhost:5000/notices
 app.use("/bookings",router2);//localhost:5000/bookings
 app.use("/hotel",router3);//localhost:5000/hotel
 app.use("/packagebookings",router4);//localhost:5000/packagebookings
 
+>>>>>>> d2e79b22933d788dc568ad7586b8a2251a0a9f61
 
 
 mongoose.connect(
@@ -27,6 +40,9 @@ mongoose.connect(
 .then(() => {
     app.listen(5000);
 })
+<<<<<<< HEAD
+.catch((err) => console.log(err));
+=======
 .catch((err) => console.log(err));
 =======
 const express  = require("express");
@@ -103,3 +119,4 @@ app.listen(PORT , () =>   {
 
 
 >>>>>>> test
+>>>>>>> d2e79b22933d788dc568ad7586b8a2251a0a9f61

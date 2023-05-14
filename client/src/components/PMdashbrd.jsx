@@ -17,12 +17,41 @@ const PMdashbrd = () => {
       <div>
         <img  alt="logo" className=" w-[150px] h-[100px] mx-auto"></img>
         <h1 className=" text-[#FFFFFF] font-bold text-l text-center w-[150px] leading-5 my-2 tracking-wide mx-auto">
+<<<<<<< HEAD
+          Package Management
+=======
           Reservation Management
+>>>>>>> d2e79b22933d788dc568ad7586b8a2251a0a9f61
         </h1>
       </div>
 
       <div className="my-6 ">
 
+<<<<<<< HEAD
+        <Link to= '/packages'
+          className=" bg-[#FFFFFF] px-[15px] hover:bg-[#3A1078] py-[8px] rounded-[120px] font-bold text-black text-[10px] block w-[150px] text-center mb-7 mx-auto"
+        >All packages</Link>
+        
+        <Link to='/add'
+          className=" bg-[#FFFFFF] px-[15px] hover:bg-[#3A1078] py-[8px] rounded-[120px] font-bold text-black text-[10px] block w-[150px] text-center mb-7 mx-auto"
+        >Create a Package</Link>
+
+        <Link to='/transportation'
+          className=" bg-[#FFFFFF] px-[15px] hover:bg-[#3A1078] py-[8px] rounded-[120px] font-bold text-black text-[10px] block w-[150px] text-center mb-7 mx-auto"
+        >Available Transportation</Link>
+
+        <Link to='accomodation'
+          className=" bg-[#FFFFFF] px-[15px] hover:bg-[#3A1078] py-[8px] rounded-[120px] font-bold text-black text-[10px] block w-[150px] text-center mb-7 mx-auto"
+        >Available Accomodation</Link>
+
+        <Link to='bookings'
+          className=" bg-[#FFFFFF] px-[15px] hover:bg-[#3A1078] py-[8px] rounded-[120px] font-bold text-black text-[10px] block w-[150px] text-center mb-7 mx-auto"
+        >Bookings</Link>
+
+        <Link to="report"
+          className=" bg-[#FFFFFF] hover:bg-[#3A1078] px-[15px] py-[8px] rounded-[120px] font-bold text-black text-[10px] block w-[150px] text-center mb-7 mx-auto"
+        >Report</Link>
+=======
         <Link to= '/dashboard'
           className=" bg-[#FFFFFF] px-[15px] hover:bg-[#3A1078] py-[8px] rounded-[120px] font-bold text-black text-[10px] block w-[150px] text-center mb-7 mx-auto"
         >Dashboard</Link>
@@ -59,6 +88,7 @@ const PMdashbrd = () => {
         <Link to=''
           className=" bg-[#FFFFFF] hover:bg-[#3A1078] px-[15px] py-[8px] rounded-[120px] font-bold text-black text-[10px] block w-[150px] text-center mb-7 mx-auto"
         >Payment</Link>
+>>>>>>> d2e79b22933d788dc568ad7586b8a2251a0a9f61
 
       </div>
     </div>

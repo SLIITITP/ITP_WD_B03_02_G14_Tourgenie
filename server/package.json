@@ -1,5 +1,8 @@
 {
 <<<<<<< HEAD
+  "name": "backend",
+=======
+<<<<<<< HEAD
   "name": "mern-stack-api",
   "version": "1.0.0",
   "description": "",
@@ -26,11 +29,15 @@
 =======
   "name": "crud",
 >>>>>>> test
+>>>>>>> d2e79b22933d788dc568ad7586b8a2251a0a9f61
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
   "scripts": {
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> d2e79b22933d788dc568ad7586b8a2251a0a9f61
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon server.js"
   },
@@ -41,6 +48,9 @@
     "cors": "^2.8.5",
     "express": "^4.18.2",
     "mongoose": "^7.0.3",
+<<<<<<< HEAD
+    "nodemon": "^2.0.22"
+=======
     "nodemailer": "^6.9.2",
     "nodemon": "^2.0.22"
 =======
@@ -57,5 +67,6 @@
     "nodemon": "^2.0.20"
 >>>>>>> test
 >>>>>>> a00876d90ad433b8956840caedcf738a8b4bf058
+>>>>>>> d2e79b22933d788dc568ad7586b8a2251a0a9f61
   }
 }
