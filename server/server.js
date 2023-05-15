@@ -35,6 +35,8 @@ app.use("/Employee",EmployeeRouter);
 const tourRoute = require ("./routes/tour.js");
 app.use("/Tour", tourRoute);
 
+const router = require("./routes/vehicle-route");
+app.use("/vehicle",router);//localhost:5000/vehicles
 
 const driverRouter = require ("./routes/driver.js");
 
