@@ -1,0 +1,36 @@
+.Hotels {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  .Hotels td, .Hotels th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  .Hotels tr:nth-child(even){background-color: #f2f2f2;}
+  
+  .Hotels tr:hover {background-color: #ddd;}
+  
+  .Hotels th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #0481aa;
+    color: white;
+  }
+  .Hotels.td{
+    width: 300px;
+  }
+
+
+
+
+
+
+
+
+
+
+

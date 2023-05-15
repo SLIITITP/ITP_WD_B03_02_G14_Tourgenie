@@ -1,0 +1,4 @@
+.nav-link:hover {
+  background-color: #097340; /* Change the background color when the link is hovered */
+  color: #d4bdbd; /* Change the text color when the link is hovered */
+}
