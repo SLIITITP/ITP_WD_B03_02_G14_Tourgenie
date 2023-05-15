@@ -22,6 +22,13 @@ import AllPackage from './Component/AllPackage';
 import AllTour from './Component/AllTour';
 
 
+//vehicle
+import AddVehicle from "./components/AddVehicle";
+import Vehicles from "./components/Vehicle/Vehicles";
+import VehicleDetails from "./components/Vehicle/VehicleDetails";
+import VehicleUser from "./components/Vehicle/VehicleUser";
+import VehicleBooking from "./components/Vehicle/VehicleBooking";
+
 
 
 
@@ -57,6 +64,12 @@ function App() {
        <Route path='/user'exact Component={AllUser}/>
        <Route path='/package'exact Component={AllPackage}/>
        <Route path='/Tour'exact Component={AllTour}/>
+
+       <Route path="/add" element={<AddVehicle />} exact/>
+      <Route path="/vehicles" element={<Vehicles />} exact/>
+      <Route path="/vehicles/:id" element={<VehicleDetails />} exact/>
+      <Route path="/vehiclesUser" element={<VehicleUser/>} exact/>
+       <Route path="/VehicleBooking/:id" element={<VehicleBooking/>} exact/>
 
       
      
